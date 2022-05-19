@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="626ea667-8ea2-45da-b31c-e831262b3eb0" name="Default Changelist" comment="" />
+    <list default="true" id="626ea667-8ea2-45da-b31c-e831262b3eb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/find/ServiceRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UpdateCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/components/welcome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/GraduateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/GraduateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserDemandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserDemandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserDemandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserDemandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/GraduateApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qxy/graduate/GraduateApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/mapper/UserDemandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qxy/graduate/mapper/UserDemandMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/mapper/UserDemandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qxy/graduate/mapper/UserDemandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +53,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="21tOfwrMcI0TZMHKaFEWshQslRH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -43,10 +84,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yys\Desktop\zonghe\service-web\graduate\src\main\resources\com\qxy\graduate\mapper" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.GraduateApplication">
     <configuration name="FindDataTest.findData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -129,10 +176,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.GraduateApplication" />
+        <item itemvalue="JUnit.FindDataTest.findData2" />
         <item itemvalue="JUnit.TemplateTest.test1" />
         <item itemvalue="JUnit.TemplateTest.test2" />
         <item itemvalue="JUnit.FindDataTest.findData" />
-        <item itemvalue="JUnit.FindDataTest.findData2" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +195,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -174,96 +222,42 @@
       <workItem from="1648588815058" duration="277000" />
       <workItem from="1649298298125" duration="737000" />
       <workItem from="1649661208056" duration="32403000" />
+      <workItem from="1652186714202" duration="1716000" />
+      <workItem from="1652351593144" duration="663000" />
+      <workItem from="1652352280540" duration="5146000" />
+      <workItem from="1652505994524" duration="818000" />
+      <workItem from="1652520907206" duration="3529000" />
+      <workItem from="1652586218313" duration="10000" />
+      <workItem from="1652767397167" duration="1989000" />
+      <workItem from="1652955675056" duration="4002000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1649835103193">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1649835103193" />
-    <state width="1236" height="283" key="GridCell.Tab.0.bottom" timestamp="1651200343894">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="283" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1651200343894" />
-    <state width="1236" height="345" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1650373412993" />
-    <state width="1236" height="345" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1649835436779" />
-    <state width="1236" height="283" key="GridCell.Tab.0.center" timestamp="1651200343893">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="283" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1651200343893" />
-    <state width="1236" height="345" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1650373412992" />
-    <state width="1236" height="345" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1649835436778" />
-    <state width="1236" height="283" key="GridCell.Tab.0.left" timestamp="1651200343892">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="283" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1651200343892" />
-    <state width="1236" height="345" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1650373412992" />
-    <state width="1236" height="345" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1649835436777" />
-    <state width="1236" height="283" key="GridCell.Tab.0.right" timestamp="1651200343893">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="283" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1651200343893" />
-    <state width="1236" height="345" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1650373412993" />
-    <state width="1236" height="345" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1649835436779" />
-    <state width="1236" height="283" key="GridCell.Tab.1.bottom" timestamp="1651200343896">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="283" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1651200343896" />
-    <state width="1236" height="327" key="GridCell.Tab.1.bottom/0.23.1280.721@0.23.1280.721" timestamp="1649663939452" />
-    <state width="1236" height="345" key="GridCell.Tab.1.bottom/0.23.1280.724@0.23.1280.724" timestamp="1650373413002" />
-    <state width="1236" height="288" key="GridCell.Tab.1.bottom/0.23.1280.727@0.23.1280.727" timestamp="1649872276186" />
-    <state width="1236" height="283" key="GridCell.Tab.1.center" timestamp="1651200343895">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="283" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1651200343895" />
-    <state width="1236" height="327" key="GridCell.Tab.1.center/0.23.1280.721@0.23.1280.721" timestamp="1649663939451" />
-    <state width="1236" height="345" key="GridCell.Tab.1.center/0.23.1280.724@0.23.1280.724" timestamp="1650373413000" />
-    <state width="1236" height="288" key="GridCell.Tab.1.center/0.23.1280.727@0.23.1280.727" timestamp="1649872276185" />
-    <state width="1236" height="283" key="GridCell.Tab.1.left" timestamp="1651200343894">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="283" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1651200343894" />
-    <state width="1236" height="327" key="GridCell.Tab.1.left/0.23.1280.721@0.23.1280.721" timestamp="1649663939450" />
-    <state width="1236" height="345" key="GridCell.Tab.1.left/0.23.1280.724@0.23.1280.724" timestamp="1650373412994" />
-    <state width="1236" height="288" key="GridCell.Tab.1.left/0.23.1280.727@0.23.1280.727" timestamp="1649872276185" />
-    <state width="1236" height="283" key="GridCell.Tab.1.right" timestamp="1651200343895">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="283" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1651200343895" />
-    <state width="1236" height="327" key="GridCell.Tab.1.right/0.23.1280.721@0.23.1280.721" timestamp="1649663939451" />
-    <state width="1236" height="345" key="GridCell.Tab.1.right/0.23.1280.724@0.23.1280.724" timestamp="1650373413001" />
-    <state width="1236" height="288" key="GridCell.Tab.1.right/0.23.1280.727@0.23.1280.727" timestamp="1649872276186" />
-    <state width="1236" height="288" key="GridCell.Tab.2.bottom" timestamp="1650336544005">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="288" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1650336544005" />
-    <state width="1236" height="327" key="GridCell.Tab.2.bottom/0.23.1280.724@0.23.1280.724" timestamp="1649772430483" />
-    <state width="1236" height="288" key="GridCell.Tab.2.center" timestamp="1650336544001">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="288" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1650336544001" />
-    <state width="1236" height="327" key="GridCell.Tab.2.center/0.23.1280.724@0.23.1280.724" timestamp="1649772430482" />
-    <state width="1236" height="288" key="GridCell.Tab.2.left" timestamp="1650336544001">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="288" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1650336544001" />
-    <state width="1236" height="327" key="GridCell.Tab.2.left/0.23.1280.724@0.23.1280.724" timestamp="1649772430481" />
-    <state width="1236" height="288" key="GridCell.Tab.2.right" timestamp="1650336544002">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="288" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1650336544002" />
-    <state width="1236" height="327" key="GridCell.Tab.2.right/0.23.1280.724@0.23.1280.724" timestamp="1649772430482" />
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1649661210935">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1649661210935" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1651221620708">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1651221620708" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="yan" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

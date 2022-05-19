@@ -7,4 +7,10 @@
     <update id="submitComment">
         update service_total set quality_score=#{qualityScore},speed_score=#{speedScore},attitude_score=#{attitudeScore} where id=#{id}
     </update>
+    <select id="getOrderRate" resultType="ServiceRate">
+        select service_id as id,AVG(qualityScore) as qualityScore," +
+                "AVG(speedScore) as speedScore,AVG(attitudeScore) as attitudeScore" +
+                "FROM order_total WHERE createTime > DATE_SUB(CURDATE(), INTERVAL 3 MONTH) "+
+                "GROUP BY service_id
+    </select>
 </mapper>
