@@ -40,6 +40,10 @@
                             style="width: 49%;height: 98%;background-color:#77d477;border-radius: 13px;box-shadow: 4px 4px 5px rgb(119 212 119 / 70%);margin-top: 3px;">
                             <router-link to="/manager" class="medium">后台管理</router-link>
                         </div>
+                         <div
+                            style="width: 49%;height: 98%;background-color:#77d477;border-radius: 13px;box-shadow: 4px 4px 5px rgb(119 212 119 / 70%);margin-top: 3px;">
+                            <router-link to="/welcome" class="medium">注册登录</router-link>
+                        </div>
                     </div>
                 </div>
                 <div style="width: 33%;">
@@ -111,6 +115,9 @@
             </el-carousel-item>
             <el-carousel-item>
                 <router-link to="/manager" class="medium">后台管理</router-link>
+            </el-carousel-item>
+             <el-carousel-item>
+                <router-link to="/welcome" class="medium">注册登录</router-link>
             </el-carousel-item>
         </el-carousel> -->
     </div>

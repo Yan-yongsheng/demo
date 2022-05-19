@@ -21,22 +21,21 @@ export default {
       const ret = await this.$http.post('/register/', {
         account: this.account,
         password: this.password
-      }).then(function (response) {
-        console.log(response);
-      }).catch(function (error) {
-        console.log(error);
-      });
+      })
+      if (ret.data.code != 200) return this.$message.error(ret.data.msg)
+      console.log(ret.data.data);
+      alert(ret.data.data);
+
       // this.$router.push({path:'/registry'});
     },
     login: async function () {
       const ret = await this.$http.post('/login/', {
         account: this.account,
         password: this.password
-      }).then(function () {
-        alert('登录成功');
-      }).catch(function (e) {
-        alert(e)
       })
+      if (ret.data.code != 200) return this.$message.error(ret.data.msg)
+      console.log(ret.data.data);
+      alert(ret.data.data);
       // this.$router.push({path: '/board'});
     }
   }

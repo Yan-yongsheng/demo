@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="626ea667-8ea2-45da-b31c-e831262b3eb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/find/ServiceRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UpdateCommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/src/components/welcome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="626ea667-8ea2-45da-b31c-e831262b3eb0" name="Default Changelist" comment="增加注册登录页面但无具体跳转">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/GraduateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/GraduateApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserDemandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserDemandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserDemandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserDemandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/GraduateApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qxy/graduate/GraduateApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/mapper/UserDemandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qxy/graduate/mapper/UserDemandMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/mapper/UserDemandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qxy/graduate/mapper/UserDemandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/components/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/components/HomePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/components/welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/components/welcome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/router/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,8 +216,16 @@
       <workItem from="1652520907206" duration="3529000" />
       <workItem from="1652586218313" duration="10000" />
       <workItem from="1652767397167" duration="1989000" />
-      <workItem from="1652955675056" duration="4002000" />
+      <workItem from="1652955675056" duration="5608000" />
     </task>
+    <task id="LOCAL-00001" summary="增加注册登录页面但无具体跳转">
+      <created>1652961416134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652961416134</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,5 +254,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加注册登录页面但无具体跳转" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加注册登录页面但无具体跳转" />
   </component>
 </project>

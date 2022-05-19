@@ -6,6 +6,7 @@ import ResultPage from '../components/ResultPage.vue'
 import ServiceUpload from '../components/ServiceUpload.vue'
 import ManagerPage from '../components/ManagerPage.vue'
 import SearchPage from '../components/SearchPage.vue'
+import welcome from '../components/welcome.vue'
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -17,7 +18,8 @@ const router = createRouter({
         { path: '/result/:id', component: ResultPage, props: true },
         { path: '/serviceUpload', component: ServiceUpload },
         { path: '/manager', component: ManagerPage },
-        { path: '/searchPage/:searchText', component: SearchPage, props: true }
+        { path: '/searchPage/:searchText', component: SearchPage, props: true },
+        { path: '/welcome', component: welcome },
     ]
 })
 
