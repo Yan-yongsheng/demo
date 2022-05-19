@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface UserMapper {
-    int register(String account, String password);
+    int register(String account, String password,String category);
 
-    int login(String account, String password);
+    int login(String account, String password,String category);
 }

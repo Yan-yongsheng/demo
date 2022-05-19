@@ -40,28 +40,19 @@
                             style="width: 49%;height: 98%;background-color:#77d477;border-radius: 13px;box-shadow: 4px 4px 5px rgb(119 212 119 / 70%);margin-top: 3px;">
                             <router-link to="/manager" class="medium">后台管理</router-link>
                         </div>
-                         <div
-                            style="width: 49%;height: 98%;background-color:#77d477;border-radius: 13px;box-shadow: 4px 4px 5px rgb(119 212 119 / 70%);margin-top: 3px;">
-                            <router-link to="/welcome" class="medium">注册登录</router-link>
-                        </div>
+
                     </div>
                 </div>
                 <div style="width: 33%;">
                     <div style="width: 100%;height: 33%;display: flex;border-top: 1px solid rgb(226, 162, 25);">
-                        <div style="width: 50%;height: 100%;text-align: center;">
-                            <img class="right-img" src="../assets/right/1.png" alt="">
-                            <a class="right-a" href="https://zwdtuser.sh.gov.cn:7443/tsoauth/login.jsp"
-                                target="_blank">闵行一站测</a>
-                        </div>
-                        <div style="width: 50%;height: 100%;text-align: center;">
-                            <img class="right-img" src="../assets/right/2.png" alt="">
-                            <a href="https://testhui.com/" class="right-a" target="_blank">检测汇</a>
+                        <div  style="width: 100%;height: 98%;background-color: #70b9e4;border-radius: 13px;box-shadow: 4px 4px 5px rgb(112 185 228 / 70%);">
+                            <router-link to="/welcome" class="medium">注册登录</router-link>
                         </div>
                     </div>
                     <div style="width: 100%;height: 33%;display: flex;border-top: 1px solid rgb(226, 162, 25);">
                         <div style="width: 50%;height: 100%;text-align: center;">
-                            <img class="right-img" src="../assets/right/3.png" alt="">
-                            <a class="right-a" href="http://www.bvtracker.com/#/" target="_blank">必维</a>
+                            <img class="right-img" src="../assets/right/yizhance.png" alt="">
+                            <a class="right-a" href="https://one-stop-test.com/" target="_blank">一站测</a>
                         </div>
                         <div style="width: 50%;height: 100%;text-align: center;">
                             <img class="right-img" src="../assets/right/4.png" alt="">
@@ -72,6 +63,10 @@
                         <div style="width: 50%;height: 100%;text-align: center;">
                             <img class="right-img" src="../assets/right/5.png" alt="">
                             <a class="right-a" href="https://www.zljweb.com/" target="_blank">浙里检</a>
+                        </div>
+                         <div style="width: 50%;height: 100%;text-align: center;">
+                            <img class="right-img" src="../assets/right/2.png" alt="">
+                            <a href="https://testhui.com/" class="right-a" target="_blank">检测汇</a>
                         </div>
                     </div>
                 </div>

@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="626ea667-8ea2-45da-b31c-e831262b3eb0" name="Default Changelist" comment="增加注册登录页面但无具体跳转">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/OrderTotal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/assets/right/yizhance.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserDemandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserDemandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UpdateCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UpdateCommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserDemandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserDemandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/src/components/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/components/HomePage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/src/components/welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/components/welcome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/router/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +226,8 @@
       <workItem from="1652520907206" duration="3529000" />
       <workItem from="1652586218313" duration="10000" />
       <workItem from="1652767397167" duration="1989000" />
-      <workItem from="1652955675056" duration="5608000" />
+      <workItem from="1652955675056" duration="8363000" />
+      <workItem from="1652965869168" duration="760000" />
     </task>
     <task id="LOCAL-00001" summary="增加注册登录页面但无具体跳转">
       <created>1652961416134</created>

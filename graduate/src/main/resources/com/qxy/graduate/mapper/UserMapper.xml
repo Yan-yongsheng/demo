@@ -5,10 +5,10 @@
 
 <mapper namespace="com.qxy.graduate.mapper.UserMapper">
     <insert id="register">
-        insert into User (account, password) values (#{account}, #{password});
+        insert into User (account, password,category) values (#{account}, #{password},#{category});
     </insert>
 
     <select id="login" resultType="Integer">
-        select count(*) from User where account=#{account} and password=#{password};
+        select count(*) from User where account=#{account} and password=#{password} and category=#{category} ;
     </select>
 </mapper>
