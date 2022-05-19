@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="626ea667-8ea2-45da-b31c-e831262b3eb0" name="Default Changelist" comment="修改一些名字 ，优化评价逻辑">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/demo/shop/entity/ServiceRate.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/demo/shop/GraduateApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/demo/shop/FindDataTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/demo/shop/mapper/OrderMapper.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/com/demo/shop/mapper/OrderMapper.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/demo/shop/mapper/ServiceTotalMapper.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/com/demo/shop/mapper/ServiceTotalMapper.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/com/demo/shop/mapper/UserMapper.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/com/demo/shop/mapper/UserDemandMapper.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="21tOfwrMcI0TZMHKaFEWshQslRH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yys\Desktop\zonghe\service-web\graduate\src\main\resources\com\qxy\graduate\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qxy.graduate.entity" />
+      <recent name="com.qxy.graduate.service" />
+      <recent name="com.qxy.graduate.service.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GraduateApplication">
+    <configuration name="FindDataTest.findData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="graduate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.shop" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.shop.FindDataTest" />
+      <option name="METHOD_NAME" value="findData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindDataTest.findData2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="graduate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.shop" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.shop.FindDataTest" />
+      <option name="METHOD_NAME" value="findData2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="graduate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.shop" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.shop.TemplateTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="graduate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.shop" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.shop.TemplateTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraduateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="graduate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.shop.GraduateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GraduateApplication" />
+        <item itemvalue="JUnit.FindDataTest.findData2" />
+        <item itemvalue="JUnit.TemplateTest.test1" />
+        <item itemvalue="JUnit.TemplateTest.test2" />
+        <item itemvalue="JUnit.FindDataTest.findData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="626ea667-8ea2-45da-b31c-e831262b3eb0" name="Default Changelist" comment="" />
+      <created>1638757023886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638757023886</updated>
+      <workItem from="1638757027479" duration="13994000" />
+      <workItem from="1639120949488" duration="17435000" />
+      <workItem from="1639639322264" duration="53358000" />
+      <workItem from="1640450587200" duration="695000" />
+      <workItem from="1640594074968" duration="442000" />
+      <workItem from="1640838649294" duration="9005000" />
+      <workItem from="1641372933694" duration="280000" />
+      <workItem from="1643008191504" duration="2251000" />
+      <workItem from="1644978144382" duration="6454000" />
+      <workItem from="1645864003188" duration="159000" />
+      <workItem from="1645971887432" duration="1091000" />
+      <workItem from="1646991015052" duration="290000" />
+      <workItem from="1648173578257" duration="831000" />
+      <workItem from="1648588815058" duration="277000" />
+      <workItem from="1649298298125" duration="737000" />
+      <workItem from="1649661208056" duration="32403000" />
+      <workItem from="1652186714202" duration="1716000" />
+      <workItem from="1652351593144" duration="663000" />
+      <workItem from="1652352280540" duration="5146000" />
+      <workItem from="1652505994524" duration="818000" />
+      <workItem from="1652520907206" duration="3529000" />
+      <workItem from="1652586218313" duration="10000" />
+      <workItem from="1652767397167" duration="1989000" />
+      <workItem from="1652955675056" duration="8363000" />
+      <workItem from="1652965869168" duration="3019000" />
+      <workItem from="1652971153865" duration="3894000" />
+    </task>
+    <task id="LOCAL-00001" summary="增加注册登录页面但无具体跳转">
+      <created>1652961416134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652961416134</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加评价更新部分 ，不完善">
+      <created>1652966666403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652966666403</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改一些名字 ，优化评价逻辑">
+      <created>1652973724166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652973724166</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="yan" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加注册登录页面但无具体跳转" />
+    <MESSAGE value="增加评价更新部分 ，不完善" />
+    <MESSAGE value="修改一些名字 ，优化评价逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改一些名字 ，优化评价逻辑" />
+  </component>
+</project>
