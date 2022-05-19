@@ -4,23 +4,100 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="626ea667-8ea2-45da-b31c-e831262b3eb0" name="Default Changelist" comment="增加注册登录页面但无具体跳转">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/OrderTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/src/assets/right/yizhance.png" afterDir="false" />
+    <list default="true" id="626ea667-8ea2-45da-b31c-e831262b3eb0" name="Default Changelist" comment="增加评价更新部分 ，不完善">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/OrderTotal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/service/SubmitCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/service/impl/SubmitCommentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/demo/shop/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/demo/shop/mapper/UserDemandMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserDemandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserDemandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UpdateCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UpdateCommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserDemandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserDemandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/src/components/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/components/HomePage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/src/components/welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/components/welcome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/GraduateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/GraduateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/common/ReturnData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/common/ReturnData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/common/StateCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/common/StateCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/config/MybatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/config/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/controller/ServiceTotalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/controller/ServiceTotalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/controller/ServiceUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/controller/ServiceUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/controller/UserDemandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/controller/UserDemandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/OrderTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/RatingTotal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/ServiceTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/ServiceTotal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/ServiceUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/ServiceUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/UserDemand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/UserDemand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/add/ServiceUploadAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/add/ServiceUploadAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/add/UserDemandAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/add/UserDemandAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/find/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/find/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/find/CategoryContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/find/CategoryContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/find/CategoryReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/find/CategoryReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/find/MatchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/find/MatchResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/find/SearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/find/SearchResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/find/ServiceRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/ServiceRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/find/SubCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/find/SubCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/entity/find/UserDemandResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/entity/find/UserDemandResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/index/LuceneIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/index/LuceneIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/ServiceTotalMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/mapper/ServiceTotalMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/ServiceUploadMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/mapper/ServiceUploadMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserDemandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/mapper/UserDemandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/ISearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/service/ISearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/IServiceTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/service/IServiceTotal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/IServiceUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/service/IServiceUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/IUserDemand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/service/IUserDemand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/SearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/service/impl/SearchServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/ServiceTotalImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/service/impl/ServiceTotalImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/ServiceUploadImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/service/impl/ServiceUploadImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UpdateCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/service/impl/UpdateCommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UserDemandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/service/impl/UserDemandImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qxy/graduate/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/shop/service/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/ServiceTotalMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/demo/shop/mapper/ServiceTotalMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserDemandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/qxy/graduate/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/demo/shop/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qxy/graduate/FindDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/shop/FindDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qxy/graduate/IKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/shop/IKTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qxy/graduate/LukeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/shop/LukeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qxy/graduate/ServiceShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/shop/ServiceShow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qxy/graduate/TemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/shop/TemplateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/GraduateApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/common/ReturnData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/common/StateCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/config/MybatisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/config/RestTemplateConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/controller/ServiceTotalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/controller/ServiceUploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/controller/UserDemandController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/entity/ServiceTotal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/entity/ServiceUpload.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/entity/UserDemand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/entity/add/ServiceUploadAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/entity/add/UserDemandAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/entity/find/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/entity/find/CategoryContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/entity/find/CategoryReturn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/entity/find/MatchResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/entity/find/SearchResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/entity/find/SubCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/entity/find/UserDemandResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/index/LuceneIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/mapper/ServiceTotalMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/mapper/ServiceTotalMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/mapper/ServiceUploadMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/mapper/UserDemandMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/mapper/UserDemandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/service/ISearchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/service/IServiceTotal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/service/IServiceUpload.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/service/IUserDemand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/service/impl/SearchServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/service/impl/ServiceTotalImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/service/impl/ServiceUploadImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/service/impl/ServiceUploadImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qxy/graduate/service/impl/UserDemandImpl.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,18 +168,23 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yys\Desktop\zonghe\service-web\graduate\src\main\resources\com\qxy\graduate\mapper" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qxy.graduate.entity" />
+      <recent name="com.qxy.graduate.service" />
+      <recent name="com.qxy.graduate.service.impl" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.GraduateApplication">
     <configuration name="FindDataTest.findData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graduate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qxy.graduate.*" />
+          <option name="PATTERN" value="com.demo.shop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qxy.graduate" />
-      <option name="MAIN_CLASS_NAME" value="com.qxy.graduate.FindDataTest" />
+      <option name="PACKAGE_NAME" value="com.demo.shop" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.shop.FindDataTest" />
       <option name="METHOD_NAME" value="findData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -113,12 +195,12 @@
       <module name="graduate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qxy.graduate.*" />
+          <option name="PATTERN" value="com.demo.shop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qxy.graduate" />
-      <option name="MAIN_CLASS_NAME" value="com.qxy.graduate.FindDataTest" />
+      <option name="PACKAGE_NAME" value="com.demo.shop" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.shop.FindDataTest" />
       <option name="METHOD_NAME" value="findData2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -129,12 +211,12 @@
       <module name="graduate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qxy.graduate.*" />
+          <option name="PATTERN" value="com.demo.shop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qxy.graduate" />
-      <option name="MAIN_CLASS_NAME" value="com.qxy.graduate.TemplateTest" />
+      <option name="PACKAGE_NAME" value="com.demo.shop" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.shop.TemplateTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -145,12 +227,12 @@
       <module name="graduate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qxy.graduate.*" />
+          <option name="PATTERN" value="com.demo.shop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qxy.graduate" />
-      <option name="MAIN_CLASS_NAME" value="com.qxy.graduate.TemplateTest" />
+      <option name="PACKAGE_NAME" value="com.demo.shop" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.shop.TemplateTest" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -161,11 +243,11 @@
       <module name="graduate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qxy.graduate.*" />
+          <option name="PATTERN" value="com.demo.shop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qxy.graduate.GraduateApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.shop.GraduateApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -227,7 +309,8 @@
       <workItem from="1652586218313" duration="10000" />
       <workItem from="1652767397167" duration="1989000" />
       <workItem from="1652955675056" duration="8363000" />
-      <workItem from="1652965869168" duration="760000" />
+      <workItem from="1652965869168" duration="3019000" />
+      <workItem from="1652971153865" duration="2405000" />
     </task>
     <task id="LOCAL-00001" summary="增加注册登录页面但无具体跳转">
       <created>1652961416134</created>
@@ -236,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652961416134</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加评价更新部分 ，不完善">
+      <created>1652966666403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652966666403</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +358,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加注册登录页面但无具体跳转" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加注册登录页面但无具体跳转" />
+    <MESSAGE value="增加评价更新部分 ，不完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加评价更新部分 ，不完善" />
   </component>
 </project>

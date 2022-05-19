@@ -10,8 +10,8 @@ mybatis-plus:
     field-strategy: 0
     db-column-underline: true
     refresh-mapper: true
-  typeAliasesPackage: com.qxy.graduate.entity
-  mapper-locations: classpath:com/qxy/graduate/mapper/*.xml
+  typeAliasesPackage: com.demo.shop.entity
+  mapper-locations: classpath:com/demo/shop/mapper/*.xml
 
 spring:
   datasource:
@@ -61,4 +61,4 @@ spring:
         login-password: admin
         login-username: admin
 
-      aop-patterns: com.qxy.graduate.service.*
+      aop-patterns: com.demo.shop.service.*
